@@ -2,6 +2,8 @@
 
 Two fixes for two everyday annoyances in [WhatsApp Web](https://web.whatsapp.com): a chat list that eats your screen, and a delete button that's one misclick away from wiping a conversation.
 
+**Install from Greasy Fork:** [Toggle chat list](https://greasyfork.org/en/scripts/607064-whatsapp-web-toggle-chat-list) · [Block accidental deletion](https://greasyfork.org/en/scripts/607065-whatsapp-web-block-accidental-deletion)
+
 ## 1. Get your screen back
 
 You want to chat and watch a video side by side, but the chat list takes most of the window and the conversation gets squeezed into a strip.
@@ -16,6 +18,8 @@ You want to chat and watch a video side by side, but the chat list takes most of
 
 ![Chat list hidden, conversation at full width](screenshots/toggle-after.png)
 
+**[Install from Greasy Fork](https://greasyfork.org/en/scripts/607064-whatsapp-web-toggle-chat-list)**
+
 ## 2. Never lose a chat to a misclick
 
 How many times have you hit "Delete for me" when you meant "Delete for everyone"? Or cleared a whole chat by accident, with no way to get it back?
@@ -29,13 +33,15 @@ How many times have you hit "Delete for me" when you meant "Delete for everyone"
 
 Need to really delete something? Either do it from your phone, or temporarily disable the script in your userscript manager.
 
+**[Install from Greasy Fork](https://greasyfork.org/en/scripts/607065-whatsapp-web-block-accidental-deletion)**
+
 ## Install
 
 1. Install a userscript manager browser extension, such as [Tampermonkey](https://www.tampermonkey.net/).
-2. Open a script's raw file (links above, then **Raw**). The extension offers to install it.
+2. Click **Install** on the script's Greasy Fork page ([Toggle chat list](https://greasyfork.org/en/scripts/607064-whatsapp-web-toggle-chat-list), [Block accidental deletion](https://greasyfork.org/en/scripts/607065-whatsapp-web-block-accidental-deletion)). Or install straight from this repo: open the script file, then **Raw**, and the extension offers to install it.
 3. Reload WhatsApp Web.
 
-Installed this way, the extension picks up updates automatically.
+Either way, the extension picks up updates automatically.
 
 Tested with Tampermonkey. The scripts use no manager-specific APIs, so any userscript manager should work: [Violentmonkey](https://violentmonkey.github.io/), [Greasemonkey](https://www.greasespot.net/), [ScriptCat](https://scriptcat.org/), or [Userscripts](https://github.com/quoid/userscripts) for Safari. If one doesn't, open an issue.
 
